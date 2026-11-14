@@ -1,0 +1,276 @@
+{
+  "project": "Pear_OTDE",
+  "version": "0.3.1",
+  "source_archive_sha256": "b9e0f17ec48590628999ee1fdd713233207407d0666a5e76b6190f8b7014efd8",
+  "license": "MIT",
+  "release_scope": "research modules and native detector integration interfaces",
+  "tests": {
+    "original_tests_passed": 178,
+    "release_tests_passed": 183,
+    "failures": 0,
+    "errors": 0,
+    "skipped": 0,
+    "python": "3.13.9",
+    "torch": "2.10.0+cpu",
+    "device": "cpu",
+    "core_forward_backward": "passed",
+    "native_synthetic_forward_backward_inference": "passed",
+    "native_outputs_match_original_archive": true,
+    "compiled_python_files": 35,
+    "wheel_build": "passed",
+    "isolated_wheel_install_import": "passed",
+    "cff_schema": "CFF 1.2.0 passed"
+  },
+  "release_hygiene": {
+    "english_only_paths_and_text": true,
+    "python_comments": 0,
+    "python_docstrings": 0,
+    "credential_and_absolute_personal_path_scan": "no matches",
+    "cache_and_build_artifacts_included": false,
+    "trained_weights_included": false,
+    "dataset_included": false
+  },
+  "hash_scope": "All release files except release_manifest.json itself.",
+  "files": [
+    {
+      "path": ".gitignore",
+      "bytes": 151,
+      "sha256": "4dc376f327cfda1db961b5e0993d839f47c145364d656e21ae709344388bc786"
+    },
+    {
+      "path": "CITATION.cff",
+      "bytes": 1115,
+      "sha256": "e9b3287ad113fa067d26b86a569160b8ec0f3b1e7b66a6249bd944123ced51aa"
+    },
+    {
+      "path": "docs/DATA_FORMAT.md",
+      "bytes": 3143,
+      "sha256": "bbd67acbac1d3cac90a6ca61b4caccabe711e93dfe0c682810b13b16965b028f"
+    },
+    {
+      "path": "docs/INTEGRATION.md",
+      "bytes": 4315,
+      "sha256": "da01cb4e40dc9ee3b0a01cf4961d4c78994d47f3d51746fea994819c5b6d1b6c"
+    },
+    {
+      "path": "docs/MANUSCRIPT_CORRESPONDENCE.md",
+      "bytes": 4121,
+      "sha256": "71c924bf78c131718b7bc83d10700c9c92096a8050d969c3411606a7caf84149"
+    },
+    {
+      "path": "docs/native_interface_check.json",
+      "bytes": 1068,
+      "sha256": "5303c564e54f328caaff6d9429c862c0a1b459ba3396e8e69ff63de4f265eb00"
+    },
+    {
+      "path": "docs/VALIDATION.md",
+      "bytes": 2847,
+      "sha256": "1a820d11857119debe4204f7ceed2d4b1cac7904cae5224fd39e1858e7da3e43"
+    },
+    {
+      "path": "docs/validation_results.json",
+      "bytes": 28562,
+      "sha256": "ffb066f1b283db6efb9b10f3e2a1d430ede7523cd052df2d424c1c8e3f2f2098"
+    },
+    {
+      "path": "examples/smoke_core.py",
+      "bytes": 1318,
+      "sha256": "a0e12a838e1b85a720ae5c2d57a4543e4d183726aaeb4472b576c17937d3d985"
+    },
+    {
+      "path": "examples/verify_native.py",
+      "bytes": 4524,
+      "sha256": "959ae288d802ae249c1bf5f1fc145ec8e9ba3e26c5fce6f9726134c7a2d067ee"
+    },
+    {
+      "path": "LICENSE",
+      "bytes": 1079,
+      "sha256": "e3ab3a24da1d0b49eeb5047a13172a1fb6e07c11f6b219afef318e63f32484dc"
+    },
+    {
+      "path": "pear_innovations/__init__.py",
+      "bytes": 451,
+      "sha256": "f5f502d66eceb58923c59131d6ffb8b4aa86010abed25f0ebeb7fbd1807ce3ee"
+    },
+    {
+      "path": "pear_innovations/box_geometry.py",
+      "bytes": 6544,
+      "sha256": "49892b0344a3a0320d1417aac46a623e3d7194ba8061a9a18fbc631b167ffedf"
+    },
+    {
+      "path": "pear_innovations/critical_support.py",
+      "bytes": 6777,
+      "sha256": "c374a681c709308780b28d2511459cf1b9c732a9389a77255f8d22b63eb22f38"
+    },
+    {
+      "path": "pear_innovations/detection_training.py",
+      "bytes": 11010,
+      "sha256": "d88e2a0094667b8b36b16cae3b5b7bdd9ad2ad53ff633b240cfcf485c06f4285"
+    },
+    {
+      "path": "pear_innovations/detector_bridge.py",
+      "bytes": 6362,
+      "sha256": "8edb19e32974d2ea1ffa2493034efa0037a17f537721e325b781747c7ca5c682"
+    },
+    {
+      "path": "pear_innovations/energy_fusion.py",
+      "bytes": 9629,
+      "sha256": "4f571d41bbab888cb239542a142381f06c505a731968d9e0b2d3853f839ec9bf"
+    },
+    {
+      "path": "pear_innovations/feature_adapter.py",
+      "bytes": 3753,
+      "sha256": "a32629c1ba6e0608e2c3ac062b02e63f054404a2da648899ba16f9463cef7d18"
+    },
+    {
+      "path": "pear_innovations/fusion_base.py",
+      "bytes": 8018,
+      "sha256": "5ed9a14b65157ec0860031a2f32128d12ea4cf530885be2f3deb925f1a5c86f3"
+    },
+    {
+      "path": "pear_innovations/grade_selection.py",
+      "bytes": 2996,
+      "sha256": "89c80762b96c9a0f5c0144a95e3d7656385dd3343ebd79c1b04fa5a0486b61da"
+    },
+    {
+      "path": "pear_innovations/grade_support.py",
+      "bytes": 13630,
+      "sha256": "18197fd2bc05e6377128cee23a3e773cacad65115a47a28223b39883e33e909a"
+    },
+    {
+      "path": "pear_innovations/grading_iou.py",
+      "bytes": 9566,
+      "sha256": "fb740e58468b2fc958af9f785e50f190757bde238e0777cde054c3877c1cec1f"
+    },
+    {
+      "path": "pear_innovations/master_adapter.py",
+      "bytes": 4091,
+      "sha256": "669bda14b458d8e0078f062057622cfee92dc938621dd0b4dc5700c2d375094c"
+    },
+    {
+      "path": "pear_innovations/ordinal_readout.py",
+      "bytes": 9305,
+      "sha256": "2949143edf55014d12535de0c32661764294fcddc264385bb9bdae87be5b12d3"
+    },
+    {
+      "path": "pear_innovations/phase_base.py",
+      "bytes": 7445,
+      "sha256": "c59d21c797fdef7e93600bb56171314d7822c38fc2ba75c1c68959d7278366a8"
+    },
+    {
+      "path": "pear_innovations/phase_moments.py",
+      "bytes": 5253,
+      "sha256": "d26e58b86430814184d0e933973510913035d10df2d9c3a42132e344cba97d89"
+    },
+    {
+      "path": "pear_innovations/roi.py",
+      "bytes": 4765,
+      "sha256": "0b19158f750f50737ab7c2244d2f6de632b5f99886b52874d305798913ca3f75"
+    },
+    {
+      "path": "pear_innovations/statistic_baseline.py",
+      "bytes": 7739,
+      "sha256": "17b574f8ac3d2d2f2c7da7f81667f9fe45f338833b21442cd16db122ae4580e4"
+    },
+    {
+      "path": "pear_innovations/support_grading.py",
+      "bytes": 8243,
+      "sha256": "7c54a08d3b009d2a872372b632810671c417a2b35bf4bba6f9a74f026e793ed0"
+    },
+    {
+      "path": "pear_innovations/training.py",
+      "bytes": 10226,
+      "sha256": "bda244a030f82b50232d111aa495264e2883b9460b326fdd6620fda71a933e09"
+    },
+    {
+      "path": "pear_innovations/training_helpers.py",
+      "bytes": 11524,
+      "sha256": "f6d84aa53caaa365ca79bf981239dbb9f3c020262d07ec12f0e710fbc3e0ca3b"
+    },
+    {
+      "path": "pyproject.toml",
+      "bytes": 495,
+      "sha256": "1fabc210d214fa348899b257916ed32f48ef40882aabaf32d0994da4e816f494"
+    },
+    {
+      "path": "README.md",
+      "bytes": 4086,
+      "sha256": "89b4df1e4542bdf1202d445dd19ca955458c103d937e604cde35f9972f5fcfb7"
+    },
+    {
+      "path": "requirements.txt",
+      "bytes": 11,
+      "sha256": "802d706bb0be3434d7bdbc49bc17f246407b6c619f002c5da5ea327a197a7f1f"
+    },
+    {
+      "path": "run_validation.py",
+      "bytes": 2361,
+      "sha256": "44102beb00c0972938500011fc096ce2c080c9fd7cb9b402bbd3502fe1307175"
+    },
+    {
+      "path": "tests/test_context_integration.py",
+      "bytes": 6896,
+      "sha256": "d7d419469917f938f320d8a50619d1e3926e1fc2ae6799beeef7bf451c557cb0"
+    },
+    {
+      "path": "tests/test_feature_integration.py",
+      "bytes": 5542,
+      "sha256": "b6e670a7b401951710e90dd5fa51a8ae42c46a1be8109a3192bdeb2afe0d6814"
+    },
+    {
+      "path": "tests/test_fusion_sampling.py",
+      "bytes": 16565,
+      "sha256": "06488ecc750e6e0d684582e24df428d389dd9628db314069e64024ed676adb75"
+    },
+    {
+      "path": "tests/test_grading.py",
+      "bytes": 11893,
+      "sha256": "c99fdae4d9ec90ba0ae20ea0a97d28d45a185791a07fc608272fc6f3b866ed1c"
+    },
+    {
+      "path": "tests/test_grading_localization.py",
+      "bytes": 13667,
+      "sha256": "7561fde62babb6654dd6ccdf8c1dad30fb34c38dd513aa1b6f3bed59cc926810"
+    },
+    {
+      "path": "tests/test_iou.py",
+      "bytes": 4549,
+      "sha256": "24b5dc005a4a65fc1e754434e2c7d45d24041708e2303fbeb816c974e4f3ccbb"
+    },
+    {
+      "path": "tests/test_ordinal_statistics.py",
+      "bytes": 19018,
+      "sha256": "0719536e953aa4f9860b631eee3a85226f402bf8e6680aab87caecc016d09620"
+    },
+    {
+      "path": "tests/test_reference_encoders.py",
+      "bytes": 14172,
+      "sha256": "58ce57a6c6ba6fe7dc2e3f2c9e3b563aa643e8fa8e13df6743d240b0b18a59b7"
+    },
+    {
+      "path": "tests/test_release_regressions.py",
+      "bytes": 2970,
+      "sha256": "41ec9cb9f91479fff5c5bb3413ad4f8f1942c8ac9da2b5f12fd821687a5f4660"
+    },
+    {
+      "path": "tests/test_roi_adapter.py",
+      "bytes": 11930,
+      "sha256": "0f1b4b30cc2b98b003a9f987ab51614f53ac9b862c1fa840faea960cc9b8512b"
+    },
+    {
+      "path": "tests/test_support_grading.py",
+      "bytes": 15365,
+      "sha256": "0b2f213f05df4f8415b35f36ed6118a806ce75d3f17e32862dd09c3577605d10"
+    },
+    {
+      "path": "tests/test_training.py",
+      "bytes": 16100,
+      "sha256": "b143d1328f8177751085fc73bd1a975d321ef88ef4e8564c08fbf47120649a08"
+    },
+    {
+      "path": "THIRD_PARTY_NOTICES.md",
+      "bytes": 984,
+      "sha256": "a8e7a04e5211d5572e18507604f2aded49e0d48fd7c181c7144c9d35ca67604f"
+    }
+  ]
+}

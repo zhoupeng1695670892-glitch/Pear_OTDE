@@ -1,0 +1,39 @@
+cff-version: 1.2.0
+message: "Please cite the accompanying unpublished manuscript when using these research modules."
+type: software
+title: "Pear_OTDE"
+version: 0.3.1
+date-released: 2026-11-14
+license: MIT
+repository-code: "https://github.com/zhoupeng1695670892-glitch/Pear_OTDE"
+authors:
+  - family-names: Zhou
+    given-names: Peng
+  - family-names: Chen
+    given-names: Wei
+  - family-names: Wang
+    given-names: Yingchao
+  - family-names: Kan
+    given-names: Mingqi
+  - family-names: Cao
+    given-names: Bingyu
+  - family-names: Zhao
+    given-names: Fengda
+preferred-citation:
+  type: unpublished
+  title: "Preserving grading evidence for on-tree detection and appearance grading of Korla fragrant pears"
+  year: 2026
+  notes: "Unpublished manuscript. No journal publication or DOI is claimed."
+  authors:
+    - family-names: Zhou
+      given-names: Peng
+    - family-names: Chen
+      given-names: Wei
+    - family-names: Wang
+      given-names: Yingchao
+    - family-names: Kan
+      given-names: Mingqi
+    - family-names: Cao
+      given-names: Bingyu
+    - family-names: Zhao
+      given-names: Fengda

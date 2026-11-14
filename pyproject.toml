@@ -1,0 +1,19 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "pear-otde"
+version = "0.3.1"
+description = "Evidence-preserving on-tree pear detection and appearance grading modules"
+readme = "README.md"
+requires-python = ">=3.10"
+license = {file = "LICENSE"}
+dependencies = ["torch>=2.2"]
+
+[project.urls]
+Repository = "https://github.com/zhoupeng1695670892-glitch/Pear_OTDE"
+
+[tool.setuptools.packages.find]
+where = ["."]
+include = ["pear_innovations*"]

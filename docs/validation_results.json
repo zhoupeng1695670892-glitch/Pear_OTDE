@@ -1,0 +1,748 @@
+{
+  "timestamp_utc": "2026-11-14T10:13:34.434353+00:00",
+  "scope": "module mathematics/numerics and adapter contract tests; not full native Master training",
+  "python": "3.13.9",
+  "torch": "2.10.0+cpu",
+  "cuda_available": false,
+  "cpu_threads": 2,
+  "tests_run": 183,
+  "passed": 183,
+  "failures": 0,
+  "errors": 0,
+  "skipped": 0,
+  "elapsed_seconds": 1.2877347000030568,
+  "tests": [
+    {
+      "test": "test_context_integration.ContextIntegrationTests.test_context_expands_without_clipping_and_retains_gradient",
+      "status": "passed"
+    },
+    {
+      "test": "test_context_integration.ContextIntegrationTests.test_missing_maps_falls_back_to_each_gt_without_fabricated_supervision",
+      "status": "passed"
+    },
+    {
+      "test": "test_context_integration.ContextIntegrationTests.test_native_graph_query_api_and_prediction",
+      "status": "passed"
+    },
+    {
+      "test": "test_context_integration.ContextIntegrationTests.test_native_sum_fallback_pair_annotations_and_gradients",
+      "status": "passed"
+    },
+    {
+      "test": "test_context_integration.ContextIntegrationTests.test_no_positive_anchors_still_supervises_gt_grades",
+      "status": "passed"
+    },
+    {
+      "test": "test_context_integration.ContextIntegrationTests.test_partial_labels_do_not_create_response_pairs",
+      "status": "passed"
+    },
+    {
+      "test": "test_context_integration.ContextIntegrationTests.test_response_detaches_calibration_but_trains_actual_field",
+      "status": "passed"
+    },
+    {
+      "test": "test_context_integration.ContextIntegrationTests.test_response_weight_ablation_preserves_annotation_budget",
+      "status": "passed"
+    },
+    {
+      "test": "test_feature_integration.FeatureIntegrationTests.test_disabled_fusion_matches_native_channel_order",
+      "status": "passed"
+    },
+    {
+      "test": "test_feature_integration.FeatureIntegrationTests.test_no_annotations_are_not_negative_supervision",
+      "status": "passed"
+    },
+    {
+      "test": "test_feature_integration.FeatureIntegrationTests.test_no_matches_keeps_native_and_shallow_terms",
+      "status": "passed"
+    },
+    {
+      "test": "test_feature_integration.FeatureIntegrationTests.test_shared_fine_source_and_prediction_probabilities",
+      "status": "passed"
+    },
+    {
+      "test": "test_feature_integration.FeatureIntegrationTests.test_training_bridge_preserves_native_and_supervises_fine_grid",
+      "status": "passed"
+    },
+    {
+      "test": "test_fusion_sampling.TestPhaseSupportCompressor.test_all_invalid_external_mask_remains_finite",
+      "status": "passed"
+    },
+    {
+      "test": "test_fusion_sampling.TestPhaseSupportCompressor.test_all_parameters_receive_finite_training_gradients",
+      "status": "passed"
+    },
+    {
+      "test": "test_fusion_sampling.TestPhaseSupportCompressor.test_coefficient_is_bounded_and_uniform_support_is_explicit",
+      "status": "passed"
+    },
+    {
+      "test": "test_fusion_sampling.TestPhaseSupportCompressor.test_cpu_autocast_keeps_support_sums_fp32_and_backward_finite",
+      "status": "passed"
+    },
+    {
+      "test": "test_fusion_sampling.TestPhaseSupportCompressor.test_detach_support_blocks_main_loss_but_allows_aux_loss",
+      "status": "passed"
+    },
+    {
+      "test": "test_fusion_sampling.TestPhaseSupportCompressor.test_empty_evidence_or_reference_recovers_original_main_path",
+      "status": "passed"
+    },
+    {
+      "test": "test_fusion_sampling.TestPhaseSupportCompressor.test_exact_phase_order",
+      "status": "passed"
+    },
+    {
+      "test": "test_fusion_sampling.TestPhaseSupportCompressor.test_invalid_configuration_is_rejected",
+      "status": "passed"
+    },
+    {
+      "test": "test_fusion_sampling.TestPhaseSupportCompressor.test_main_path_never_receives_padded_input",
+      "status": "passed"
+    },
+    {
+      "test": "test_fusion_sampling.TestPhaseSupportCompressor.test_native_even_odd_singleton_and_one_slot_shapes",
+      "status": "passed"
+    },
+    {
+      "test": "test_fusion_sampling.TestPhaseSupportCompressor.test_odd_shape_valid_phases_and_epsilon_exclude_padding",
+      "status": "passed"
+    },
+    {
+      "test": "test_fusion_sampling.TestPhaseSupportCompressor.test_one_defect_phase_has_distinct_evidence_and_reference",
+      "status": "passed"
+    },
+    {
+      "test": "test_fusion_sampling.TestPhaseSupportCompressor.test_pooling_autograd_matches_finite_differences",
+      "status": "passed"
+    },
+    {
+      "test": "test_fusion_sampling.TestPhaseSupportCompressor.test_tiny_support_has_finite_slots_and_vanishing_availability",
+      "status": "passed"
+    },
+    {
+      "test": "test_fusion_sampling.TestPhaseSupportCompressor.test_training_mode_is_batch_independent",
+      "status": "passed"
+    },
+    {
+      "test": "test_fusion_sampling.TestPhaseSupportCompressor.test_values_at_invalid_phases_do_not_enter_slots",
+      "status": "passed"
+    },
+    {
+      "test": "test_fusion_sampling.TestScaleComparableFusion.test_binomial_filter_preserves_constant_including_edges",
+      "status": "passed"
+    },
+    {
+      "test": "test_fusion_sampling.TestScaleComparableFusion.test_coarse_veto_ablation_actually_changes_unique_path",
+      "status": "passed"
+    },
+    {
+      "test": "test_fusion_sampling.TestScaleComparableFusion.test_cpu_autocast_comparison_and_gradients_remain_finite",
+      "status": "passed"
+    },
+    {
+      "test": "test_fusion_sampling.TestScaleComparableFusion.test_disabled_updates_leave_the_projected_fine_identity",
+      "status": "passed"
+    },
+    {
+      "test": "test_fusion_sampling.TestScaleComparableFusion.test_gradients_reach_both_features_and_support_head",
+      "status": "passed"
+    },
+    {
+      "test": "test_fusion_sampling.TestScaleComparableFusion.test_naive_comparison_ablation_uses_fine_grid",
+      "status": "passed"
+    },
+    {
+      "test": "test_fusion_sampling.TestScaleComparableFusion.test_native_even_odd_and_single_pixel_shapes",
+      "status": "passed"
+    },
+    {
+      "test": "test_fusion_sampling.TestScaleComparableFusion.test_rejects_resized_or_wrong_native_grid",
+      "status": "passed"
+    },
+    {
+      "test": "test_fusion_sampling.TestScaleComparableFusion.test_training_mode_is_batch_independent",
+      "status": "passed"
+    },
+    {
+      "test": "test_fusion_sampling.TestScaleComparableFusion.test_unique_branch_has_no_coarse_computational_path",
+      "status": "passed"
+    },
+    {
+      "test": "test_fusion_sampling.TestScaleComparableFusion.test_zero_features_are_finite_and_gates_coefficients_are_bounded",
+      "status": "passed"
+    },
+    {
+      "test": "test_grading.GradingTests.test_baseline_shares_auxiliary_head_architecture",
+      "status": "passed"
+    },
+    {
+      "test": "test_grading.GradingTests.test_conditional_supervision_masks_out_background_and_non_damage",
+      "status": "passed"
+    },
+    {
+      "test": "test_grading.GradingTests.test_diagnostic_override_must_be_explicit",
+      "status": "passed"
+    },
+    {
+      "test": "test_grading.GradingTests.test_fractional_weighted_tail_matches_hand_calculation",
+      "status": "passed"
+    },
+    {
+      "test": "test_grading.GradingTests.test_grade_gradient_cannot_directly_train_visibility",
+      "status": "passed"
+    },
+    {
+      "test": "test_grading.GradingTests.test_known_regions_and_visible_relative_area",
+      "status": "passed"
+    },
+    {
+      "test": "test_grading.GradingTests.test_missing_condition_requires_explicit_conditional_domain",
+      "status": "passed"
+    },
+    {
+      "test": "test_grading.GradingTests.test_nested_weights_at_extremes",
+      "status": "passed"
+    },
+    {
+      "test": "test_grading.GradingTests.test_no_critical_evidence_produces_zero_tail_evidence_token",
+      "status": "passed"
+    },
+    {
+      "test": "test_grading.GradingTests.test_no_masks_are_not_negative_labels",
+      "status": "passed"
+    },
+    {
+      "test": "test_grading.GradingTests.test_no_visibility_falls_back_without_nan_or_dropping_roi",
+      "status": "passed"
+    },
+    {
+      "test": "test_grading.GradingTests.test_noncontiguous_input_and_cpu_autocast",
+      "status": "passed"
+    },
+    {
+      "test": "test_grading.GradingTests.test_optional_detach_all_evidence_weights",
+      "status": "passed"
+    },
+    {
+      "test": "test_grading.GradingTests.test_partial_labels_and_roi_balanced_auxiliary_loss",
+      "status": "passed"
+    },
+    {
+      "test": "test_grading.GradingTests.test_predicted_shapes_and_nested_conservation",
+      "status": "passed"
+    },
+    {
+      "test": "test_grading.GradingTests.test_tail_support_not_roi_pixel_count",
+      "status": "passed"
+    },
+    {
+      "test": "test_grading.GradingTests.test_tail_zero_and_tiny_support_finite",
+      "status": "passed"
+    },
+    {
+      "test": "test_grading.GradingTests.test_zero_roi_batch_all_heads",
+      "status": "passed"
+    },
+    {
+      "test": "test_grading_localization.CaptureTests.test_exact_identity_value_and_zero_capture_gradient",
+      "status": "passed"
+    },
+    {
+      "test": "test_grading_localization.CaptureTests.test_independent_finite_difference_interior_crop",
+      "status": "passed"
+    },
+    {
+      "test": "test_grading_localization.CaptureTests.test_translation_axiswise_scaling_half_and_empty",
+      "status": "passed"
+    },
+    {
+      "test": "test_grading_localization.EvidenceMatchingTests.test_empty_missing_and_exact_tolerance_boundaries",
+      "status": "passed"
+    },
+    {
+      "test": "test_grading_localization.EvidenceMatchingTests.test_invalid_ids_scores_and_statistics_are_rejected",
+      "status": "passed"
+    },
+    {
+      "test": "test_grading_localization.EvidenceMatchingTests.test_selects_highest_eligible_score_not_highest_score_and_falls_back",
+      "status": "passed"
+    },
+    {
+      "test": "test_grading_localization.GSFLocalizationTests.test_any_complete_critical_component_is_sufficient",
+      "status": "passed"
+    },
+    {
+      "test": "test_grading_localization.GSFLocalizationTests.test_component_support_loss_is_not_cropped_pixel_max",
+      "status": "passed"
+    },
+    {
+      "test": "test_grading_localization.GSFLocalizationTests.test_exact_minimum_mass_excludes_empty_prior_from_certificate",
+      "status": "passed"
+    },
+    {
+      "test": "test_grading_localization.GSFLocalizationTests.test_full_miss_empty_half_and_instance_reduction",
+      "status": "passed"
+    },
+    {
+      "test": "test_grading_localization.GSFLocalizationTests.test_identity_exact_zero_and_all_fixed_targets_detached",
+      "status": "passed"
+    },
+    {
+      "test": "test_grading_localization.GSFLocalizationTests.test_invalid_component_hyperparameters_and_nesting",
+      "status": "passed"
+    },
+    {
+      "test": "test_grading_localization.GSFLocalizationTests.test_partial_missing_and_known_zero_have_distinct_meaning",
+      "status": "passed"
+    },
+    {
+      "test": "test_grading_localization.GSFLocalizationTests.test_probability_certificate_for_fixed_component_context",
+      "status": "passed"
+    },
+    {
+      "test": "test_grading_localization.GSFLocalizationTests.test_proportional_crop_requires_visible_coverage_even_without_stat_change",
+      "status": "passed"
+    },
+    {
+      "test": "test_iou.TestEvidenceIoU.test_common_axis_scaling_translation_invariance",
+      "status": "passed"
+    },
+    {
+      "test": "test_iou.TestEvidenceIoU.test_cutting_critical_side_is_more_costly_at_equal_iou",
+      "status": "passed"
+    },
+    {
+      "test": "test_iou.TestEvidenceIoU.test_empty_and_low_precision",
+      "status": "passed"
+    },
+    {
+      "test": "test_iou.TestEvidenceIoU.test_expansion_zero_retention_but_positive_geometry",
+      "status": "passed"
+    },
+    {
+      "test": "test_iou.TestEvidenceIoU.test_gradient_finite_difference_away_from_kinks",
+      "status": "passed"
+    },
+    {
+      "test": "test_iou.TestEvidenceIoU.test_group_replication_and_anchor_multiplicity",
+      "status": "passed"
+    },
+    {
+      "test": "test_iou.TestEvidenceIoU.test_invalid_hyperparameters_and_availability_are_rejected",
+      "status": "passed"
+    },
+    {
+      "test": "test_iou.TestEvidenceIoU.test_missing_annotation_falls_back_and_detaches_evidence",
+      "status": "passed"
+    },
+    {
+      "test": "test_iou.TestEvidenceIoU.test_perfect_match_zero_no_inflation_gradient",
+      "status": "passed"
+    },
+    {
+      "test": "test_ordinal_statistics.StatisticFidelityTests.test_critical_witness_fidelity_and_extent_gate",
+      "status": "passed"
+    },
+    {
+      "test": "test_ordinal_statistics.StatisticFidelityTests.test_crop_normal_and_crop_damage_move_extent_in_opposite_directions",
+      "status": "passed"
+    },
+    {
+      "test": "test_ordinal_statistics.StatisticFidelityTests.test_empty_batch_half_precision_and_instance_aggregation",
+      "status": "passed"
+    },
+    {
+      "test": "test_ordinal_statistics.StatisticFidelityTests.test_expansion_is_handled_by_geometry_without_artificial_capture_gain",
+      "status": "passed"
+    },
+    {
+      "test": "test_ordinal_statistics.StatisticFidelityTests.test_fixed_field_probability_tv_is_bounded_for_random_boxes",
+      "status": "passed"
+    },
+    {
+      "test": "test_ordinal_statistics.StatisticFidelityTests.test_full_miss_finite_upper_bound_and_unavailable_bound",
+      "status": "passed"
+    },
+    {
+      "test": "test_ordinal_statistics.StatisticFidelityTests.test_identity_has_exact_zero_penalty_and_gradient",
+      "status": "passed"
+    },
+    {
+      "test": "test_ordinal_statistics.StatisticFidelityTests.test_invalid_loss_hyperparameters",
+      "status": "passed"
+    },
+    {
+      "test": "test_ordinal_statistics.StatisticFidelityTests.test_missing_is_not_empty_and_partial_annotations_are_masked",
+      "status": "passed"
+    },
+    {
+      "test": "test_ordinal_statistics.StatisticFidelityTests.test_proportional_crop_keeps_extent_but_loses_visible_coverage",
+      "status": "passed"
+    },
+    {
+      "test": "test_ordinal_statistics.StatisticFidelityTests.test_semantic_nesting_and_availability_validation",
+      "status": "passed"
+    },
+    {
+      "test": "test_ordinal_statistics.StatisticFidelityTests.test_translation_and_axiswise_scale_invariance_of_retention",
+      "status": "passed"
+    },
+    {
+      "test": "test_ordinal_statistics.StructuredReadoutTests.test_diagnostic_override_boundaries",
+      "status": "passed"
+    },
+    {
+      "test": "test_ordinal_statistics.StructuredReadoutTests.test_empty_batch_and_autocast_are_finite",
+      "status": "passed"
+    },
+    {
+      "test": "test_ordinal_statistics.StructuredReadoutTests.test_empty_visible_prior_is_finite_and_not_a_forced_grade",
+      "status": "passed"
+    },
+    {
+      "test": "test_ordinal_statistics.StructuredReadoutTests.test_existing_conditional_evidence_supervision_on_fine_grid",
+      "status": "passed"
+    },
+    {
+      "test": "test_ordinal_statistics.StructuredReadoutTests.test_fine_input_controls_evidence_grid_and_both_inputs_get_gradients",
+      "status": "passed"
+    },
+    {
+      "test": "test_ordinal_statistics.StructuredReadoutTests.test_grade_gradient_cannot_directly_change_visible_mask",
+      "status": "passed"
+    },
+    {
+      "test": "test_ordinal_statistics.StructuredReadoutTests.test_invalid_readout_hyperparameters_and_inputs",
+      "status": "passed"
+    },
+    {
+      "test": "test_ordinal_statistics.StructuredReadoutTests.test_probability_monotonicity_extremes_and_convex_mixture",
+      "status": "passed"
+    },
+    {
+      "test": "test_ordinal_statistics.StructuredReadoutTests.test_shapes_simplex_order_and_cross_entropy",
+      "status": "passed"
+    },
+    {
+      "test": "test_ordinal_statistics.StructuredReadoutTests.test_tiny_extent_gradient_and_saturated_middle_probability",
+      "status": "passed"
+    },
+    {
+      "test": "test_ordinal_statistics.StructuredReadoutTests.test_visible_area_and_critical_witness_have_different_dilution",
+      "status": "passed"
+    },
+    {
+      "test": "test_reference_encoders.TestEncoderIntegration.test_bfloat16_forward_and_gradients_are_finite",
+      "status": "passed"
+    },
+    {
+      "test": "test_reference_encoders.TestEncoderIntegration.test_missing_annotation_is_zero_loss_not_background",
+      "status": "passed"
+    },
+    {
+      "test": "test_reference_encoders.TestEncoderIntegration.test_native_concat_fallback_order_and_auxiliary_training",
+      "status": "passed"
+    },
+    {
+      "test": "test_reference_encoders.TestEncoderIntegration.test_odd_shape_energy_guarantee_and_backward",
+      "status": "passed"
+    },
+    {
+      "test": "test_reference_encoders.TestEncoderIntegration.test_projection_off_uses_same_head_and_unmodified_update",
+      "status": "passed"
+    },
+    {
+      "test": "test_reference_encoders.TestEncoderIntegration.test_shape_and_positive_constant_guards",
+      "status": "passed"
+    },
+    {
+      "test": "test_reference_encoders.TestEncoderIntegration.test_support_absence_disables_projection",
+      "status": "passed"
+    },
+    {
+      "test": "test_reference_encoders.TestQuadraticProjection.test_detach_removes_constraint_support_gradient_only",
+      "status": "passed"
+    },
+    {
+      "test": "test_reference_encoders.TestQuadraticProjection.test_exact_counteracting_update_is_removed",
+      "status": "passed"
+    },
+    {
+      "test": "test_reference_encoders.TestQuadraticProjection.test_feasible_tangent_update_is_unchanged",
+      "status": "passed"
+    },
+    {
+      "test": "test_reference_encoders.TestQuadraticProjection.test_fixed_constraint_update_gradient_and_full_gradient",
+      "status": "passed"
+    },
+    {
+      "test": "test_reference_encoders.TestQuadraticProjection.test_matrix_definition_and_autograd_verify_normal",
+      "status": "passed"
+    },
+    {
+      "test": "test_reference_encoders.TestQuadraticProjection.test_projection_does_not_increase_update_norm",
+      "status": "passed"
+    },
+    {
+      "test": "test_reference_encoders.TestQuadraticProjection.test_random_feasibility_and_minimum_distance",
+      "status": "passed"
+    },
+    {
+      "test": "test_reference_encoders.TestQuadraticProjection.test_zero_normal_and_inactive_constraints",
+      "status": "passed"
+    },
+    {
+      "test": "test_reference_encoders.TestReferenceMoments.test_empty_one_sided_support_falls_back_to_main",
+      "status": "passed"
+    },
+    {
+      "test": "test_reference_encoders.TestReferenceMoments.test_erpc_disabled_is_exact_main_but_head_remains_trainable",
+      "status": "passed"
+    },
+    {
+      "test": "test_reference_encoders.TestReferenceMoments.test_identical_distributions_have_zero_contrast",
+      "status": "passed"
+    },
+    {
+      "test": "test_reference_encoders.TestReferenceMoments.test_moment_gradcheck",
+      "status": "passed"
+    },
+    {
+      "test": "test_reference_encoders.TestReferenceMoments.test_phase_roundtrip_even_odd_and_thin_inputs",
+      "status": "passed"
+    },
+    {
+      "test": "test_reference_encoders.TestReferenceMoments.test_same_means_different_distribution_is_distinguished",
+      "status": "passed"
+    },
+    {
+      "test": "test_reference_encoders.TestReferenceMoments.test_translation_invariance_of_centered_statistics",
+      "status": "passed"
+    },
+    {
+      "test": "test_release_regressions.PartialAnnotationRegressionTests.test_critical_only_annotation_does_not_require_visible_channel",
+      "status": "passed"
+    },
+    {
+      "test": "test_release_regressions.PartialAnnotationRegressionTests.test_empty_prediction_path_preserves_output_shapes",
+      "status": "passed"
+    },
+    {
+      "test": "test_release_regressions.PartialAnnotationRegressionTests.test_nonadjacent_known_supports_are_checked_in_training",
+      "status": "passed"
+    },
+    {
+      "test": "test_release_regressions.PartialAnnotationRegressionTests.test_standalone_losses_reject_critical_outside_visible",
+      "status": "passed"
+    },
+    {
+      "test": "test_release_regressions.PartialAnnotationRegressionTests.test_unknown_damage_remains_unknown_with_valid_critical_support",
+      "status": "passed"
+    },
+    {
+      "test": "test_roi_adapter.ROITests.test_bool_mask_reframe_preserves_coordinates_and_soft_values",
+      "status": "passed"
+    },
+    {
+      "test": "test_roi_adapter.ROITests.test_empty_rois_and_invalid_shapes",
+      "status": "passed"
+    },
+    {
+      "test": "test_roi_adapter.ROITests.test_full_image_identity_and_known_crop",
+      "status": "passed"
+    },
+    {
+      "test": "test_roi_adapter.ROITests.test_mask_reframe_validates_empty_and_detaches_gt_geometry",
+      "status": "passed"
+    },
+    {
+      "test": "test_roi_adapter.ROITests.test_nms_stable_ties_zero_and_validation",
+      "status": "passed"
+    },
+    {
+      "test": "test_roi_adapter.ROITests.test_roi_and_feature_gradients",
+      "status": "passed"
+    },
+    {
+      "test": "test_roi_adapter.ToyAdapterContractTests.test_mixed_empty_images_preserve_batch_partition",
+      "status": "passed"
+    },
+    {
+      "test": "test_roi_adapter.ToyAdapterContractTests.test_predict_refuses_training_mode",
+      "status": "passed"
+    },
+    {
+      "test": "test_roi_adapter.ToyAdapterContractTests.test_predict_uses_only_decoder_boxes_and_predicted_evidence",
+      "status": "passed"
+    },
+    {
+      "test": "test_roi_adapter.ToyAdapterContractTests.test_real_three_modules_joint_grade_backward",
+      "status": "passed"
+    },
+    {
+      "test": "test_roi_adapter.ToyAdapterContractTests.test_schema_and_input_guards",
+      "status": "passed"
+    },
+    {
+      "test": "test_roi_adapter.ToyAdapterContractTests.test_shared_original_main_and_no_new_visibility_supervision",
+      "status": "passed"
+    },
+    {
+      "test": "test_roi_adapter.ToyAdapterContractTests.test_state_dict_roundtrip_preserves_shared_main_and_outputs",
+      "status": "passed"
+    },
+    {
+      "test": "test_roi_adapter.ToyAdapterContractTests.test_xywh_decoder_convention_and_zero_detections",
+      "status": "passed"
+    },
+    {
+      "test": "test_support_grading.ContextGradeHeadTests.test_auxiliary_supervision_trains_support_heads_on_context_grid",
+      "status": "passed"
+    },
+    {
+      "test": "test_support_grading.ContextGradeHeadTests.test_context_default_and_multiquery_shapes_and_simplex",
+      "status": "passed"
+    },
+    {
+      "test": "test_support_grading.ContextGradeHeadTests.test_context_reuse_does_not_rerun_projection_or_support_heads",
+      "status": "passed"
+    },
+    {
+      "test": "test_support_grading.ContextGradeHeadTests.test_detached_calibration_keeps_field_and_capture_gradients",
+      "status": "passed"
+    },
+    {
+      "test": "test_support_grading.ContextGradeHeadTests.test_empty_capture_prior_and_ideal_event_diagnostic_are_separate",
+      "status": "passed"
+    },
+    {
+      "test": "test_support_grading.ContextGradeHeadTests.test_no_component_has_zero_critical_response_not_an_implicit_max_fallback",
+      "status": "passed"
+    },
+    {
+      "test": "test_support_grading.ContextGradeHeadTests.test_override_and_probability_contracts",
+      "status": "passed"
+    },
+    {
+      "test": "test_support_grading.ContextGradeHeadTests.test_partial_query_extent_and_alternative_support_by_hand",
+      "status": "passed"
+    },
+    {
+      "test": "test_support_grading.ContextGradeHeadTests.test_visibility_direct_gradient_detached_and_capture_gradient_active",
+      "status": "passed"
+    },
+    {
+      "test": "test_support_grading.ContextGradeHeadTests.test_zero_batch_autocast_and_one_scale_ablation",
+      "status": "passed"
+    },
+    {
+      "test": "test_support_grading.CriticalSupportTests.test_alternative_complete_component_preserves_its_own_contribution",
+      "status": "passed"
+    },
+    {
+      "test": "test_support_grading.CriticalSupportTests.test_capture_monotonicity_bounded_values_and_normal_padding",
+      "status": "passed"
+    },
+    {
+      "test": "test_support_grading.CriticalSupportTests.test_components_are_built_on_context_not_query_fragments",
+      "status": "passed"
+    },
+    {
+      "test": "test_support_grading.CriticalSupportTests.test_fixed_identity_can_be_reused_without_rethresholding",
+      "status": "passed"
+    },
+    {
+      "test": "test_support_grading.CriticalSupportTests.test_four_connectivity_threshold_and_single_pixel_support",
+      "status": "passed"
+    },
+    {
+      "test": "test_support_grading.CriticalSupportTests.test_gradient_check_with_fixed_component_identities",
+      "status": "passed"
+    },
+    {
+      "test": "test_support_grading.CriticalSupportTests.test_half_input_and_weak_zero_mass_cached_component",
+      "status": "passed"
+    },
+    {
+      "test": "test_support_grading.CriticalSupportTests.test_invalid_input_contracts",
+      "status": "passed"
+    },
+    {
+      "test": "test_support_grading.CriticalSupportTests.test_multiple_queries_share_identities_and_match_individual_reads",
+      "status": "passed"
+    },
+    {
+      "test": "test_support_grading.CriticalSupportTests.test_partial_component_attenuates_even_when_peak_is_retained",
+      "status": "passed"
+    },
+    {
+      "test": "test_support_grading.CriticalSupportTests.test_zero_support_zero_capture_and_zero_batch",
+      "status": "passed"
+    },
+    {
+      "test": "test_training.IndexAndEvidenceContractTests.test_joint_checks_only_known_groups_but_enforces_known_containment",
+      "status": "passed"
+    },
+    {
+      "test": "test_training.IndexAndEvidenceContractTests.test_joint_soft_maps_become_conditional_targets_and_domains",
+      "status": "passed"
+    },
+    {
+      "test": "test_training.IndexAndEvidenceContractTests.test_missing_parent_skips_conditional_domains_and_unknown_nan",
+      "status": "passed"
+    },
+    {
+      "test": "test_training.IndexAndEvidenceContractTests.test_one_per_gt_best_quality_and_stable_ties",
+      "status": "passed"
+    },
+    {
+      "test": "test_training.IndexAndEvidenceContractTests.test_shallow_missing_targets_and_conditioning_are_not_negative_labels",
+      "status": "passed"
+    },
+    {
+      "test": "test_training.IndexAndEvidenceContractTests.test_shallow_requires_explicit_validity_and_checks_annotated_values",
+      "status": "passed"
+    },
+    {
+      "test": "test_training.IndexAndEvidenceContractTests.test_unsorted_local_to_global",
+      "status": "passed"
+    },
+    {
+      "test": "test_training.TrainingBridgeContractTests.test_absent_evidence_does_not_train_evidence_heads_as_background",
+      "status": "passed"
+    },
+    {
+      "test": "test_training.TrainingBridgeContractTests.test_annotated_evidence_and_shallow_have_gradients",
+      "status": "passed"
+    },
+    {
+      "test": "test_training.TrainingBridgeContractTests.test_invalid_loss_weight_rejected",
+      "status": "passed"
+    },
+    {
+      "test": "test_training.TrainingBridgeContractTests.test_known_damage_without_visible_retains_boxes_but_skips_conditional_bce",
+      "status": "passed"
+    },
+    {
+      "test": "test_training.TrainingBridgeContractTests.test_missing_validity_and_invalid_grade_or_image_ids_rejected",
+      "status": "passed"
+    },
+    {
+      "test": "test_training.TrainingBridgeContractTests.test_native_ciou_configuration_uses_actual_source_attributes",
+      "status": "passed"
+    },
+    {
+      "test": "test_training.TrainingBridgeContractTests.test_native_vector_items_aux_and_gradients_are_preserved",
+      "status": "passed"
+    },
+    {
+      "test": "test_training.TrainingBridgeContractTests.test_no_positive_anchors_keeps_differentiable_native_loss",
+      "status": "passed"
+    },
+    {
+      "test": "test_training.TrainingBridgeContractTests.test_unsorted_batch_sorted_for_native_then_original_grades_restored",
+      "status": "passed"
+    }
+  ]
+}
